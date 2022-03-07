@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 1 - Tijd", "Les 1 - Tijd\Les 1 - Tijd.csproj", "{2DBB9CC3-A556-40D1-9BF2-8071D987371E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 1 - Tijd", "Les 1 - Tijd\Les 1 - Tijd.csproj", "{2DBB9CC3-A556-40D1-9BF2-8071D987371E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 1 - Functies", "Les 1 - Functies\Les 1 - Functies.csproj", "{C9110F23-F48A-469F-8849-73F22D4514E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 1 - Functies", "Les 1 - Functies\Les 1 - Functies.csproj", "{C9110F23-F48A-469F-8849-73F22D4514E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 1 - Functions return", "Les 1 - Functions return\Les 1 - Functions return.csproj", "{DA073021-C37C-48D7-855A-80C1BD7F114B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 1 - Functions return", "Les 1 - Functions return\Les 1 - Functions return.csproj", "{DA073021-C37C-48D7-855A-80C1BD7F114B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 2 - Variables en Datatypes", "Les 2 - Variables en Datatypes\Les 2 - Variables en Datatypes.csproj", "{85CC045A-FC5D-4695-B53C-520EFEA79235}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{DA073021-C37C-48D7-855A-80C1BD7F114B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA073021-C37C-48D7-855A-80C1BD7F114B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA073021-C37C-48D7-855A-80C1BD7F114B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85CC045A-FC5D-4695-B53C-520EFEA79235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85CC045A-FC5D-4695-B53C-520EFEA79235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85CC045A-FC5D-4695-B53C-520EFEA79235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85CC045A-FC5D-4695-B53C-520EFEA79235}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

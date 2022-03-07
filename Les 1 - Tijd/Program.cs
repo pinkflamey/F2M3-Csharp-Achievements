@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace Les_1___Tijd
 {
@@ -7,16 +8,13 @@ namespace Les_1___Tijd
         static void Main(string[] args)
         {
 
-            DateTime dateTime = DateTime.Now;
+            while (true)
+            {
+                Console.Clear();
+                Console.WriteLine(DateTime.Now.ToString("T"));
+                Thread.Sleep(1000);
 
-            Console.WriteLine(dateTime.ToString("dddd, dd MMMM yyyy"));
-            Console.WriteLine(dateTime.ToString("T"));
-
-            Console.WriteLine("\nDe maand is " + dateTime.Month + ".");
-            Console.WriteLine("Het is dag " + dateTime.Day + ".");
-            Console.WriteLine("Het uur is " + dateTime.Hour + ".");
-            Console.WriteLine("Dit uur zijn er " + dateTime.Minute + " minuten geweest.");
-            Console.WriteLine("Deze minuut zijn er " + dateTime.Second + " seconden geweest.");
+            }
 
         }
     }
