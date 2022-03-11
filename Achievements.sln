@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 2 - Loops", "Les 2 - Lo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 3 - Classes and Switch Cases", "Les 3 - Classes\Les 3 - Classes and Switch Cases.csproj", "{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Hello World\Hello World.csproj", "{CADCC765-1032-4825-A423-4449B8E96333}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CADCC765-1032-4825-A423-4449B8E96333}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADCC765-1032-4825-A423-4449B8E96333}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADCC765-1032-4825-A423-4449B8E96333}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADCC765-1032-4825-A423-4449B8E96333}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
