@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 1 - Functies", "Les 1 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 1 - Functions return", "Les 1 - Functions return\Les 1 - Functions return.csproj", "{DA073021-C37C-48D7-855A-80C1BD7F114B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 2 - Variables en Datatypes", "Les 2 - Variables en Datatypes\Les 2 - Variables en Datatypes.csproj", "{85CC045A-FC5D-4695-B53C-520EFEA79235}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 2 - Variables en Datatypes", "Les 2 - Variables en Datatypes\Les 2 - Variables en Datatypes.csproj", "{85CC045A-FC5D-4695-B53C-520EFEA79235}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 2 - Arrays", "Les 2 - Arrays\Les 2 - Arrays.csproj", "{8EE33D99-A8ED-4860-AE7C-DED05CDA80D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 2 - Arrays", "Les 2 - Arrays\Les 2 - Arrays.csproj", "{8EE33D99-A8ED-4860-AE7C-DED05CDA80D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 2 - Loops", "Les 2 - Loops\Les 2 - Loops.csproj", "{426FFD74-0AFD-4E49-B078-166C2638A39C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 2 - Loops", "Les 2 - Loops\Les 2 - Loops.csproj", "{426FFD74-0AFD-4E49-B078-166C2638A39C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Les 3 - Classes and Switch Cases", "Les 3 - Classes\Les 3 - Classes and Switch Cases.csproj", "{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{426FFD74-0AFD-4E49-B078-166C2638A39C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{426FFD74-0AFD-4E49-B078-166C2638A39C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{426FFD74-0AFD-4E49-B078-166C2638A39C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E72973-73F2-4EA4-94CC-2D7A6ED07ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
