@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello World", "Hello World\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 5 - Scopes", "Les 5 - Scopes\Les 5 - Scopes.csproj", "{569FEB7C-97AD-4D92-9740-3C90503A4A75}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Les 5 - Getters and Setters", "Les 5 - Getters and Setters\Les 5 - Getters and Setters.csproj", "{E0EBB725-3E16-4227-BE9E-EA5947BAEDCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{569FEB7C-97AD-4D92-9740-3C90503A4A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569FEB7C-97AD-4D92-9740-3C90503A4A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{569FEB7C-97AD-4D92-9740-3C90503A4A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0EBB725-3E16-4227-BE9E-EA5947BAEDCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0EBB725-3E16-4227-BE9E-EA5947BAEDCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0EBB725-3E16-4227-BE9E-EA5947BAEDCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0EBB725-3E16-4227-BE9E-EA5947BAEDCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
