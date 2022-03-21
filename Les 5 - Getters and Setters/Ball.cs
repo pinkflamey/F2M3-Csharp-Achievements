@@ -8,9 +8,6 @@ namespace Les_5___Getters_and_Setters
 {
     internal class Ball
     {
-        public string GiveBall()
-        {
-            return "a ball";
-        }
+        
     }
 }

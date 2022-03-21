@@ -12,25 +12,13 @@ namespace Les_5___Getters_and_Setters
         {
             Console.OutputEncoding = System.Text.Encoding.Unicode;
 
-            Ball ball = new Ball();
-            string ballName = ball.GiveBall();
-            Console.WriteLine("We have a ball: " + ballName + "!");
-
-            Thread.Sleep(1000);
-
-            Console.WriteLine("\nThis dog is named...");
-            string name = Console.ReadLine();
-
-            Thread.Sleep(1000);
-
-            Dog dog = new Dog(name);
-
-            Console.WriteLine("\nWe have a dog, and their name is " + dog.GetName() + "!");
+            Dog dog = new Dog();
+            Console.WriteLine("\nWe have a dog, " + dog + "!");
 
             Thread.Sleep(1000);
 
             bool throwBall = false;
-            Console.WriteLine("\nDo you want to throw " + ballName + "? (y/n)");
+            Console.WriteLine("\nDo you want to throw a ball? (y/n)");
             switch (Console.ReadLine())
             {
                 case "y": throwBall = true; break;
@@ -39,12 +27,13 @@ namespace Les_5___Getters_and_Setters
 
             if (throwBall)
             {
-                Console.WriteLine("\nFetch the ball, " + dog.GetName() + "!");
+                Console.WriteLine("\nFetch the ball!");
                 Thread.Sleep(2000);
-                Console.WriteLine(dog.FetchBall());
+                Console.WriteLine(dog.FetchBall(new Ball()));
+                Ball ball = dog.PickUpBall();
             }
 
-            Console.WriteLine("\nHow hard do you want to pet " + dog.GetName() + "? (0-4)");
+            Console.WriteLine("\nHow hard do you want to pet the doggo? (0-4)");
             string intensityString = Console.ReadLine();
             int intensity;
             try
