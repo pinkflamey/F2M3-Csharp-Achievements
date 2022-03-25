@@ -7,12 +7,15 @@ namespace Les_2___Loops
         static void Main(string[] args)
         {
 
-            int[] array = { 0, 2, 4, 6, 8, 10 };
+            int[] array = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
             Console.WriteLine("Manier 1:");
             for (int i = 0; i < array.Length; i++)
             {
-                Console.WriteLine(array[i]);
+                if ((array[i] / 2) * 2 == array[i])
+                {
+                    Console.WriteLine(array[i]);
+                }
             }
 
             Console.WriteLine("\nManier 2:");
