@@ -31,6 +31,7 @@ namespace Les_5___Getters_and_Setters
                 Thread.Sleep(2000);
                 Console.WriteLine(dog.FetchBall(new Ball()));
                 Ball ball = dog.PickUpBall();
+                Console.WriteLine(ball);
             }
 
             Console.WriteLine("\nHow hard do you want to pet the doggo? (0-4)");
